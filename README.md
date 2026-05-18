@@ -17,11 +17,11 @@ The pipeline:
 
 In geometrized units the line element is
 
-$$ds^2 = -\left(1 - \frac{2m}{r}\right)dt^2 + \frac{dr^2}{1 - \frac{2m}{r}} + r^2\d\Omega^2,$$
+$$ds^2 = -\left(1 - \frac{2m}{r}\right)dt^2 + \frac{dr^2}{1 - \frac{2m}{r}} + r^2 d\Omega^2,$$
 
 with
 
-$$m = \frac{GM}{c^2}, \qquad d\Omega^2 = d\theta^2 + \sin^2\theta\d\phi^2.$$
+$$m = \frac{GM}{c^2}, \qquad d\Omega^2 = d\theta^2 + \sin^2\theta d\phi^2.$$
 
 The signature is $(-,+,+,+)$.
 
@@ -49,9 +49,9 @@ $$\nabla_\mu \xi_\nu = \partial_\mu \xi_\nu - \Gamma^{\lambda}_{\mu\nu}\xi_\lamb
 
 Because the Schwarzschild components are independent of $t$ and $\phi$, the metric admits two Killing vectors, $\partial_t$ and $\partial_\phi$, with associated conserved quantities (per unit rest mass):
 
-$$E = \left(1 - \frac{2m}{r}\right)\dot{t}, \qquad L = r^2\,\dot{\phi},$$
+$$E = \left(1 - \frac{2m}{r}\right)\dot{t}, \qquad L = r^2 \dot{\phi},$$
 
-where $\dot{X} \equiv dX/d\tau$.
+where $\dot{X} \equiv \frac{dX}{d\tau}$.
 
 ### 1.3 Lagrangian Derivation
 
