@@ -17,11 +17,11 @@ The pipeline:
 
 In geometrized units the line element is
 
-$$ds^2 = -\left(1 - \frac{2m}{r}\right)dt^2 + \frac{dr^2}{1 - \frac{2m}{r}} + r^2\,d\Omega^2,$$
+$$ds^2 = -\left(1 - \frac{2m}{r}\right)dt^2 + \frac{dr^2}{1 - \frac{2m}{r}} + r^2\d\Omega^2,$$
 
 with
 
-$$m = \frac{GM}{c^2}, \qquad d\Omega^2 = d\theta^2 + \sin^2\theta\,d\phi^2.$$
+$$m = \frac{GM}{c^2}, \qquad d\Omega^2 = d\theta^2 + \sin^2\theta\d\phi^2.$$
 
 The signature is $(-,+,+,+)$.
 
@@ -33,7 +33,7 @@ $$\mathcal{L}_\xi g_{\mu\nu} = 0. \qquad (1)$$
 
 The Lie derivative of the metric can be written
 
-$$\mathcal{L}_\xi g_{\mu\nu} = \left(\partial_\mu \xi^\alpha\right) g_{\alpha\nu} + \left(\partial_\nu \xi^\beta\right) g_{\mu\beta} + \xi^\rho\,\partial_\rho g_{\mu\nu},$$
+$$\mathcal{L}_\xi g_{\mu\nu} = \left(\partial_\mu \xi^\alpha\right) g_{\alpha\nu} + \left(\partial_\nu \xi^\beta\right) g_{\mu\beta} + \xi^\rho\partial_\rho g_{\mu\nu},$$
 
 and equation (1) is equivalent to the **Killing equation**
 
@@ -45,7 +45,7 @@ $$\nabla_\gamma T^{\alpha_1\ldots\alpha_m}{}_{\beta_1\ldots\beta_n} = \partial_\
 
 so for a covector
 
-$$\nabla_\mu \xi_\nu = \partial_\mu \xi_\nu - \Gamma^{\lambda}_{\mu\nu}\,\xi_\lambda.$$
+$$\nabla_\mu \xi_\nu = \partial_\mu \xi_\nu - \Gamma^{\lambda}_{\mu\nu}\xi_\lambda.$$
 
 Because the Schwarzschild components are independent of $t$ and $\phi$, the metric admits two Killing vectors, $\partial_t$ and $\partial_\phi$, with associated conserved quantities (per unit rest mass):
 
@@ -57,11 +57,11 @@ where $\dot{X} \equiv dX/d\tau$.
 
 Restricting motion to the equatorial plane $\theta = \pi/2$, $\dot\theta = 0$, the metric becomes
 
-$$ds^2 = -\left(1 - \frac{2m}{r}\right)dt^2 + \frac{dr^2}{1 - \frac{2m}{r}} + r^2\,d\phi^2,$$
+$$ds^2 = -\left(1 - \frac{2m}{r}\right)dt^2 + \frac{dr^2}{1 - \frac{2m}{r}} + r^2d\phi^2,$$
 
 and the geodesic Lagrangian is
 
-$$\mathcal{L} = \frac{1}{2}\,g_{\mu\nu}\,\dot{x}^\mu \dot{x}^\nu = \frac{1}{2}\left[-\left(1 - \frac{2m}{r}\right)\dot{t}^2 + \frac{\dot{r}^2}{1 - \frac{2m}{r}} + r^2 \dot{\phi}^2\right].$$
+$$\mathcal{L} = \frac{1}{2} g_{\mu\nu}\dot{x}^\mu \dot{x}^\nu = \frac{1}{2}\left[-\left(1 - \frac{2m}{r}\right)\dot{t}^2 + \frac{\dot{r}^2}{1 - \frac{2m}{r}} + r^2 \dot{\phi}^2\right].$$
 
 The Euler–Lagrange equation
 
@@ -88,7 +88,7 @@ $$-\left(1 - \frac{2m}{r}\right)\dot{t}^2 + \frac{\dot{r}^2}{1 - \frac{2m}{r}} +
 
 Substituting $\dot{t} = E/(1 - 2m/r)$ and $\dot{\phi} = L/r^2$ and rearranging:
 
-$$\boxed{\;\dot{r}^2 = E^2 - \left(1 - \frac{2m}{r}\right)\left(\epsilon + \frac{L^2}{r^2}\right)\;} \qquad (2)$$
+$$\boxed{\dot{r}^2 = E^2 - \left(1 - \frac{2m}{r}\right)\left(\epsilon + \frac{L^2}{r^2}\right)} \qquad (2)$$
 
 This has the form $\dot{r}^2 + V_\text{eff}(r) = E^2$ with the **effective potential**
 
@@ -96,7 +96,7 @@ $$V_\text{eff}(r) = \left(1 - \frac{2m}{r}\right)\left(\epsilon + \frac{L^2}{r^2
 
 Differentiating (2) once with respect to $\tau$ removes the square root and gives the second-order radial equation
 
-$$\boxed{\;\ddot{r} = -\frac{m\epsilon}{r^2} + \frac{L^2}{r^3} - \frac{3mL^2}{r^4}\;}$$
+$$\boxed{\ddot{r} = -\frac{m\epsilon}{r^2} + \frac{L^2}{r^3} - \frac{3mL^2}{r^4}}$$
 
 The last term is the **GR correction** absent from the Newtonian problem; it is responsible for perihelion precession, the photon sphere, and the ISCO.
 
